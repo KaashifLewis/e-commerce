@@ -13,13 +13,13 @@
                         <div class="one-forth d-flex align-items-center ftco-animate"
                             data-scrollax=" properties: { translateY: '70%' }">
                             <div class="text">
-                                <span class="subheading">#Best Sellers</span>
+                                <span class="subheading">#Top Equipment</span>
                                 <div class="horizontal">
-                                    <h1 class="mb-4 mt-3">Best Sellers {{ date('Y') }}</h1>
-                                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the
-                                        necessary regelialia. It is a paradisematic country.</p>
+                                    <h1 class="mb-4 mt-3">Top Equipment {{ date('Y') }}</h1>
+                                    <p class="mb-4">Power your progress with Top Gym Equipment. From strength training to cardio essentials,
+                                        we provide reliable, high-quality gear engineered to push limits and elevate every workout.</p>
 
-                                    <p><a href="#" class="btn-custom">Discover Now</a></p>
+                                    <p><a href="#" class="btn-custom">Check it Out!</a></p>
                                 </div>
                             </div>
                         </div>
@@ -37,13 +37,13 @@
                         <div class="one-forth d-flex align-items-center ftco-animate"
                             data-scrollax=" properties: { translateY: '70%' }">
                             <div class="text">
-                                <span class="subheading">#New Arrival</span>
+                                <span class="subheading">#Top Supplements</span>
                                 <div class="horizontal">
-                                    <h1 class="mb-4 mt-3">New Collection {{ date('Y') }}</h1>
-                                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the
-                                        necessary regelialia. It is a paradisematic country.</p>
+                                    <h1 class="mb-4 mt-3">Best Selling Supplements {{ date('Y') }}</h1>
+                                    <p class="mb-4">Fuel your body with our best-selling supplements
+                                        proven formulas designed to enhance performance, accelerate recovery, and help you reach your fitness goals faster.</p>
 
-                                    <p><a href="#" class="btn-custom">Discover Now</a></p>
+                                    <p><a href="#" class="btn-custom">Check it Out!</a></p>
                                 </div>
                             </div>
                         </div>

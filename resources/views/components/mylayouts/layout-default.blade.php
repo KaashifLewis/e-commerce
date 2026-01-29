@@ -41,15 +41,15 @@
                         <div class="col-md pr-4 d-flex topper align-items-center">
                             <div class="icon mr-2 d-flex justify-content-center align-items-center"><span
                                     class="icon-phone2"></span></div>
-                            <span class="text">+ 1235 2355 98</span>
+                            <span class="text">+ 1-868-230-2020</span>
                         </div>
                         <div class="col-md pr-4 d-flex topper align-items-center">
                             <div class="icon mr-2 d-flex justify-content-center align-items-center"><span
                                     class="icon-paper-plane"></span></div>
-                            <span class="text">youremail@email.com</span>
+                            <span class="text">FitForge@email.com</span>
                         </div>
                         <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
-                            <span class="text">3-5 Business days delivery &amp; Free Returns</span>
+                            <span class="text">Free devlivery on purchases over $400.00 &amp; Free Returns</span>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                         </li>
                     @endauth
                     <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
 
 
                     @guest
@@ -135,7 +135,7 @@
         @endempty
     @else
         {{-- START hero --}}
-        <div class="hero-wrap hero-bread" style="background-image: url('{{ asset('template_default/images/bg_6.jpg') }}');">
+        <div class="hero-wrap hero-bread" style="background-image: url('{{ asset('template_default/images/Gympic.jpg') }}');">
             <div class="container">
                 <div class="row no-gutters slider-text align-items-center justify-content-center">
                     <div class="col-md-9 ftco-animate text-center">
@@ -170,7 +170,8 @@
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">{{ $store }}</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <p>At FitForge, we believe strength is built, not given. Our mission is to provide
+                            everything you need to support a healthier, stronger and more active lifestyle in one trusted place.</p>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                             <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                             <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -230,7 +231,7 @@
                         Copyright &copy;
                         <script>
                             document.write(new Date().getFullYear());
-                        </script> All rights reserved | This template is made with <i
+                        </script> This is a subsiduary of the FitBod brand | All rights reserved | This template is made with <i
                             class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
                             target="_blank">Colorlib</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
