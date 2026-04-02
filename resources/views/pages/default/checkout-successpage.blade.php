@@ -25,6 +25,6 @@
         </div>
     </div>
 
-
+@include('pages.additional.tiers.tiers-checkout')
 
 </x-mylayouts.layout-default>

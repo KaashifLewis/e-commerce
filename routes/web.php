@@ -1,13 +1,14 @@
 <?php
 
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
-use App\Http\Controllers\DetailController;
-use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\CheckoutPaymentController;
 use App\Http\Controllers\CheckoutSuccessController;
+use App\Http\Controllers\DetailController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\tiers\TierController;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 
 
 Auth::routes();
@@ -44,3 +45,8 @@ Route::middleware(['auth'])->group(function () {
 
 
 include('filament-routes.php');
+
+Route::prefix('user')->middleware(['auth'])->name('user.')->group(function () {
+    // Subscriptions goes here
+    Route::get('/tiers', [TierController::class, 'index'])->name('tiers.index');
+});

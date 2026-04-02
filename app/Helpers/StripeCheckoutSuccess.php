@@ -9,6 +9,7 @@ use App\Models\Shipping;
 class StripeCheckoutSuccess
 {
     protected $stripe;
+    public $order_id;
 
     public function __construct()
     {
@@ -29,6 +30,8 @@ class StripeCheckoutSuccess
         if (!$order) {
             return false;
         }
+
+        $this->order_id = $order->id;
 
         // Get order from stripe
         $stripe_helper = new StripeCheckout();
