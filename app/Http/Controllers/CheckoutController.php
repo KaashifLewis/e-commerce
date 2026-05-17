@@ -24,6 +24,6 @@ class CheckoutController extends Controller
         }
         $cart_data->calculateSubtotal();
 
-        return view('pages.default.checkoutpage', compact('cart_data'));
+        return view('pages.custom.checkoutpage', compact('cart_data'));
     }
 }

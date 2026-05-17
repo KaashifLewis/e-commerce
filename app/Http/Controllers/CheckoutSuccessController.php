@@ -29,6 +29,6 @@ class CheckoutSuccessController extends Controller
         $tier_helper = new TierHelper(Auth::user()->load('tier'));
         $tier_helper->checkTierProgress();
 
-        return view('pages.default.checkout-successpage', compact('tier_helper'));
+        return view('pages.custom.checkout-successpage', compact('tier_helper'));
     }
 }

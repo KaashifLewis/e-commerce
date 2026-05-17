@@ -23,6 +23,6 @@ class ProductController extends Controller
         $product_data = Product::withPrices()->get();
 
         //pass information to the page called productspage.
-        return view('pages.default.productspage', compact('product_data'));
+        return view('pages.custom.productspage', compact('product_data'));
     }
 }
